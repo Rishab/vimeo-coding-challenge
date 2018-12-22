@@ -1,0 +1,95 @@
+.carousel {
+  margin-top: 100px;
+}
+
+.hunt::before {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(https://m.media-amazon.com/images/M/MV5BMjI1MDQ2MDg5Ml5BMl5BanBnXkFtZTgwMjc2NjM5ODE@._V1_SY1000_SX675_AL_.jpg);
+  background-position: center;
+}
+
+.decent::before {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(https://upload.wikimedia.org/wikipedia/commons/3/3f/Nichtspassiertplakat_CC.jpg);
+  background-position: 100% 25%;
+}
+.vice-versa::before {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(http://thesitzmark.com/wp-content/uploads/2016/10/Vice-Versa-Cover-Art-584x800.jpg);
+  background-position: center;
+}
+
+.fourth-phase::before {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(https://m.media-amazon.com/images/M/MV5BOGVhNjUwYTItYmI2NS00ZGI1LWE5ZDQtMWVjMTIyODAzMDI4XkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_.jpg);
+  background-position: 100% 25%;
+  background-size: cover;
+}
+
+.carousel-outer::before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blur-30px::before {
+  filter: blur(30px);
+}
+
+.carousel-image {
+  margin-top: 3rem;
+  margin-bottom: 40px;
+  margin-left: 90px;
+  padding: auto;
+  float: right;
+  height: 60%;
+  width: 60%;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 2)),
+    to(rgba(0, 0, 0, 0.1))
+  );
+}
+
+.movie-title {
+  margin-top: 6rem;
+  color: white;
+}
+
+.movie-description {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  margin-right: 90px;
+  padding-right: 50px;
+}
+
+.carousel-control:hover {
+  color: #4ebbff;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background: none !important;
+  filter: none !important;
+}
+
+.carousel-indicators li {
+  visibility: hidden;
+}
+
+.btn-info {
+  margin-right: 10px;
+}
+
+.btn-outline-light {
+  background-color: transparent;
+  border: 0.5px solid white;
+  color: white;
+}
