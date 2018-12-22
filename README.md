@@ -16,4 +16,4 @@ You will also see any lint errors in the console.
 
 If you run into trouble with connecting to the application, install the latest version of react-bootstrap. This can be done so using node package manager (npm) in the following way:
 
-'npm install --save react-bootstrap'
+`npm install --save react-bootstrap`
