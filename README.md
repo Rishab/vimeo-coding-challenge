@@ -18,4 +18,6 @@ If you run into trouble with connecting to the application, install the latest v
 
 `npm install --save react-bootstrap`
 
-If you still run into trouble, delete the node_modules folder and reinstall it by running `install node` in the directory with the app. Afterwards, the app should run correctly. 
+If you still run into trouble, delete the node_modules folder and reinstall it by running `npm install` in the directory with the app. Afterwards, the app should run correctly. 
+
+Please email me at rishab.chawla@rutgers.edu if you run into issues.
